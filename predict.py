@@ -8,7 +8,6 @@ from transformers import BertForSequenceClassification, BertTokenizer
 
 from data_utils import DocumentDataset, read_document
 
-f1_average = "micro"  # Type of averaging performed on the batches
 threshold = 0.5  # Prediction threshold for sigmoids
 
 batch_size = 64
